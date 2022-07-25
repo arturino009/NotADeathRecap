@@ -31,9 +31,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="ExileCore">
       <HintPath>..\..\..\PoeHelper\ExileCore.dll</HintPath>
@@ -83,8 +80,5 @@
   <PropertyGroup>
     <PreBuildEvent>
     </PreBuildEvent>
-  </PropertyGroup>
-  <PropertyGroup>
-    <PostBuildEvent>copy /Y  "..\..\..\PoeHelper\Plugins\Source\NotADeathRecap\BuffDefinitions.csv" "..\..\..\PoeHelper\Plugins\Compiled\NotADeathRecap\BuffDefinitions.csv"</PostBuildEvent>
   </PropertyGroup>
 </Project>

@@ -18,7 +18,7 @@ namespace NotADeathRecap
         bool wasAlive = false;
         public override bool Initialise()
         {
-            using (TextFieldParser parser = new TextFieldParser(@"Plugins\Compiled\NotADeathRecap\BuffDefinitions.csv"))
+            using (TextFieldParser parser = new TextFieldParser(@"Plugins\Source\NotADeathRecap\BuffDefinitions.csv")) //change for debugging
             {
                 parser.TextFieldType = FieldType.Delimited;
                 parser.SetDelimiters(",");
