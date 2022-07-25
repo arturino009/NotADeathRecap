@@ -85,6 +85,6 @@
     </PreBuildEvent>
   </PropertyGroup>
   <PropertyGroup>
-    <PostBuildEvent>copy /Y  "$(ProjectDir)BuffDefinitions.csv" "$(OutDir)BuffDefinitions.csv"</PostBuildEvent>
+    <PostBuildEvent>copy /Y  "..\..\..\PoeHelper\Plugins\Source\NotADeathRecap\BuffDefinitions.csv" "..\..\..\PoeHelper\Plugins\Compiled\NotADeathRecap\BuffDefinitions.csv"</PostBuildEvent>
   </PropertyGroup>
 </Project>
